@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negozio online</title>
+    <link rel="stylesheet" href="SestoCompitoFineSettimana.css"
+</head>
+<body>
+  <h1>ALI&LA SHOP</h1>  
+  <div class="buttons-container">
+    <button onclick="changeHeadingContent()">Cambia Titolo</button>
+    <button onclick="changeBackgroundColor('lightblue')">Cambia Sfondo</button>
+    <button onclick="changeFooterAddress('Via Roma, 123, 00100 Roma, Italia')">Cambia Indirizzo</button>
+    <button onclick="addClassToAmazonLinks()">Aggiungi Classe ai Link Amazon</button>
+    <button onclick="toggleImageVisibility()">Mostra/Nascondi Immagini</button>
+    <button onclick="changePriceColors()">Cambia Colore Prezzi</button>
+</div>
+
+  <main>
+    <div class="table-container">
+        <table>
+    
+            <thead>
+                <th>Img</th>
+                <th>Amazon Link</th>
+                <th></th>
+                <th></th>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="foto/Coca-Cola.jpg" alt="Coca-Cola Xmas Box" class="immagine"
+                    </td>
+                    <td>
+                        <a class="amazon-link" href="https://www.amazon.it/Coca-Cola-Xmas-Box-Collaborazione-Alimentare/dp/B0DJR6WF9R/ref=zg_bsnr_c_kitchen_d_sccl_2/261-4949996-9112147?psc=1">Coca-Cola Xmas Box</a>
+                    </td>
+                    <td>24 Lattine da 150ml e 10 Gadgets Natalizi, in Collaborazione con Banco Alimentare</td>
+                    <td>17,99 € </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="foto/SOXCO.jpg" alt="SOXCO 10 paia calze da lavoro uomo" class="immagine"
+                    </td>
+                    <td>
+                        <a class="amazon-link" href="https://www.amazon.it/SOXCO-Socks-calze-lavoro-confezione/dp/B0C66GVV7Z/ref=sr_1_1?_encoding=UTF8&nsdOptOutParam=true&psr=EY17&s=apparel&sr=1-1">SOXCO </a>
+                    </td>
+                    <td>10 paia calze da lavoro uomo lunghe rinforzate WORK Socks</td>
+                    <td>14,99 €</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="foto/Oral-B.jpg" alt="Oral-B Spazzolino Elettrico Ricaricabile" class="immagine"
+                    </td>
+                    <td>
+                        <a class="amazon-link" href="https://www.amazon.it/Oral-B-Spazzolino-Elettrico-Ricaricabile-Pressione/dp/B0C6MF8QTB?ref_=pd_hp_d_btf_unk_B0C6MF8QTB">Oral-B Spazzolino Elettrico Ricaricabile</a>
+                    </td>
+                    <td>Pro Series 1 Nero con 1 Testina di Ricambio + 1 Custodia da Viaggio. 1 Spazzolino</td>
+                    <td>29,99 €</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="foto/Chicco Vespa.jpg" alt="Chicco Vespa per Bambini Primavera Bianca" class="immagine"
+                    </td>
+                    <td>
+                       <a class="amazon-link" href="https://www.amazon.it/Chicco-Cavalcabile-Vespa-Primavera-Bianco/dp/B084HTJQB5?ref_=dealz_cs_B084HTJQB5">Chicco Vespa per Bambini Primavera Bianca</a> 
+                    </td>
+                    <td>Moto Giocattolo Cavalcabile con Pannello Elettronico, Luci e Suoni, Ruote di Supporto Rimuovibili, Max 25 Kg, Giochi per Bambini 1-3 Anni</td>
+                    <td>33,99 €</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="foto/BACI PERUGINA.jpg" accesskey="BACI PERUGINA Caffè Cioccolatini" class="immagine"
+                    </td>
+                    <td>
+                        <a class="amazon-link " href="https://www.amazon.it/PERUGINA-Cioccolatini-Fondenti-ripieni-Gianduia/dp/B0CCW1QTBR/?_encoding=UTF8&ref_=pd_hp_d_atf_dealz_vi">BACI PERUGINA Caffè Cioccolatini</a>
+                    </td>
+                    <td>Fondenti ripieni al Gianduia, Scatola Regalo 150g</td>
+                    <td>10,49 €</td>
+                </tr>
+                
+            </tbody>
+          </table>
+    </div>
+    <div class="textarea">
+        <textarea></textarea>
+    </div>
+  </main>
+  <footer>
+    <div><strong>Ali&La ShopS</strong></div>
+    <div>
+        <address>
+            <strong>Carr. Nacional II, Km 35.1, 28805 Alcalá de Henares, Madrid, Spagna</strong>
+        </address>
+    </div>
+  </footer>
+  <script src="SestoCompitoFineSettimana.js"></script>
+</body>
+</html>
